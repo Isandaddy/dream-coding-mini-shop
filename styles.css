@@ -1,0 +1,93 @@
+:root {
+  --icon-width: 4rem;
+  --icon-height: 3rem;
+  --btn-margin-left: 1rem;
+}
+
+body {
+  font-family: sans-serif;
+  background: #454545;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+.header-icon {
+  width: 6rem;
+  cursor: pointer;
+}
+
+img {
+  width: var(--icon-width);
+}
+ul {
+  display: flex;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  margin-left: var(--btn-margin-left);
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+.blue-btn {
+  background: #0000ff;
+  width: var(--icon-width);
+  height: var(--icon-height);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.pink-btn {
+  background: #ffc0cb;
+  width: var(--icon-width);
+  height: var(--icon-height);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.yellow-btn {
+  background: #ffff00;
+  width: var(--icon-width);
+  height: var(--icon-height);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+section {
+  overflow: scroll;
+  height: 500px;
+}
+
+.item-card {
+  background: #f0ffff;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.size-info {
+  margin-left: var(--btn-margin-left);
+}
+
+.sex-info {
+  margin-left: var(--btn-margin-left);
+}
+
+nav ul li:hover {
+  transition: 0.5s;
+  transform: scale(1.1);
+}
